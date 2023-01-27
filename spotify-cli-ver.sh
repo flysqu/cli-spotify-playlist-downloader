@@ -77,7 +77,7 @@ if [ "$continue" = "y" ]; then
       cd "$dir"
 
       o=$(ytfzf -d -m --sort-by=relevance --auto-select -I link --type=video "$song")
-      yt-yt-dlp -x --audio-format opus --embed-thumbnail --ppa "EmbedThumbnail+ffmpeg_o:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\"" "$o"
+      yt-dlp -x --audio-format mp3 --embed-thumbnail --ppa "EmbedThumbnail+ffmpeg_o:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\"" "$o"
 
       clear
     elif [ "$am" = "manual" ]
@@ -85,7 +85,7 @@ if [ "$continue" = "y" ]; then
       cd "$dir"
 
       o=$(ytfzf -d -m --sort-by=relevance -I link --type=video "$song")
-      yt-yt-dlp -x --audio-format opus --embed-thumbnail --ppa "EmbedThumbnail+ffmpeg_o:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\"" "$o"
+      yt-dlp -x --audio-format mp3 --embed-thumbnail --ppa "EmbedThumbnail+ffmpeg_o:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\"" "$o"
 
       clear
     fi
