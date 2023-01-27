@@ -1,6 +1,9 @@
 # cli-spotify-playlist-downloader
 Downloads all songs in a spotify playlist using the spotify api and ytfzf
 
+## Flowchart
+<img src="/assets/image.jpg" width=25% height=25%>
+
 ## How to get a OAuth token
 
 1. Go to this url "https://developer.spotify.com/console/get-playlist-tracks/" (You may have to log in to your spotify account) <br />
