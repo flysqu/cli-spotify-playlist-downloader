@@ -2,7 +2,7 @@
 Downloads all songs in a spotify playlist using the spotify api and ytfzf
 
 ## Flowchart
-<img src="/assets/image.jpg" width=25% height=25%>
+![](https://github.com/Lop010/cli-spotify-playlist-downloader/blob/main/assets/ezgif-4-4ec5c4682e.gif)
 
 ## How to get a OAuth token
 
