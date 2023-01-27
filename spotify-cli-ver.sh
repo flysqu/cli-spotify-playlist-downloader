@@ -1,13 +1,13 @@
 #!/bin/bash
 
 echo "Please enter your OAuth token:"
-OAUTH="BQBStYcria2agimI1uyt7dC_JnGF17ppuj7ScqU2QUsFzqRWW1n0D42lfM5ghEED4myNrWrNbqlJvtzqeS1uwwfjbG1-v_8ETfZuYkUQAVXbM7j6OvkOpzwJNpFZ4ezgmW9_64NIdJ6QtDy3Wmu6T4l0noG-xuSJT070sVArIXemTQ0scLZ6ZcGfU5kEUyEACtZqRa8SNB_LR9HR"
+read OAUTH
 
 
 echo ""
 
 echo "Please enter your playlist ID"
-PLAYLISTID="6jO8TpwpwalYEpu2kVLNs4"
+read PLAYLISTID
 
 echo ""
 
