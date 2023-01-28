@@ -4,6 +4,11 @@ Downloads all songs in a spotify playlist using the spotify api and ytfzf
 ## Flowchart
 ![](https://github.com/Lop010/cli-spotify-playlist-downloader/blob/main/assets/ezgif-4-4ec5c4682e.gif)
 
+## Dependencies
+1. [ytfzf](https://github.com/pystardust/ytfzf)
+2. [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+3. [FFmpeg](https://ffmpeg.org/) (On most distros it is preinstalled) 
+
 ## How to get a OAuth token
 
 1. Go to this url "https://developer.spotify.com/console/get-playlist-tracks/" (You may have to log in to your spotify account) <br />
