@@ -10,9 +10,4 @@ Downloads all songs in a spotify playlist using the spotify api and ytfzf
 3. [FFmpeg](https://ffmpeg.org/) (On most distros it is preinstalled) 
 
 ## How to get a OAuth token
-
-1. Go to this url "https://developer.spotify.com/console/get-playlist-tracks/" (You may have to log in to your spotify account) <br />
-2. Scroll down and click the button "Get Token"<br />
-3. Check only the box "playlist-read-private"<br />
-4. Now click request token<br />
-5. Now copy the OAuth field and paste it into the program (The token is very long so make sure to copy the whole thing)<br />
+Follow instructions [here](https://developer.spotify.com/documentation/web-api/tutorials/getting-started) to make an "app" and get an "access token" and then you enter that as your OAuth token
