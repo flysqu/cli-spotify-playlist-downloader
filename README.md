@@ -1,5 +1,6 @@
 # cli-spotify-playlist-downloader
 Downloads all songs in a spotify playlist using the spotify api and ytfzf
+WARNING: THIS PROBABLY DOESNT WORK ANYMORE
 
 ## Flowchart
 ![](https://github.com/Lop010/cli-spotify-playlist-downloader/blob/main/assets/ezgif-4-4ec5c4682e.gif)
